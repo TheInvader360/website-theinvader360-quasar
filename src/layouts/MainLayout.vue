@@ -28,25 +28,6 @@
           </q-btn-dropdown>
         </q-btn-group>
       </q-toolbar>
-      <!--
-      <q-tabs align="right">
-        <q-route-tab no-caps to="/about" label="About" />
-        <q-route-tab no-caps to="/blog" label="Blog" />
-        <q-btn-dropdown no-caps auto-close stretch flat label="Projects">
-          <q-list>
-            <q-item clickable to="/projects-apps">
-              <q-item-section>Apps</q-item-section>
-            </q-item>
-            <q-item clickable to="/projects-fun">
-              <q-item-section>Fun</q-item-section>
-            </q-item>
-            <q-item clickable to="/projects-work">
-              <q-item-section>Work</q-item-section>
-            </q-item>
-          </q-list>
-        </q-btn-dropdown>
-      </q-tabs>
-      -->
     </q-header>
 
     <q-page-container>

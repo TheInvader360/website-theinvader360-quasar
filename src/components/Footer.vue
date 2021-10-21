@@ -2,17 +2,26 @@
   <q-footer bordered class="bg-grey-8 text-white">
     <div class="row q-pt-md q-pa-xs">
       <div class="col text-center">
-          &copy;{{ year }} TheInvader360
+        <div class="q-mb-sm">
+          <q-btn padding="xs" target="_blank" round flat size="lg" type="a" href="https://play.google.com/store/apps/developer?id=TheInvader360" icon="svguse:icons.svg#svg-icon-googleplay"/>
+          <q-btn padding="xs" target="_blank" round flat size="lg" type="a" href="https://www.amazon.co.uk/s?field-brandtextbin=TheInvader360" icon="svguse:icons.svg#svg-icon-amazon"/>
+          <q-btn padding="xs" target="_blank" round flat size="lg" type="a" href="https://youtube.com/theinvader360" icon="svguse:icons.svg#svg-icon-youtube"/>
+          <q-btn padding="xs" target="_blank" round flat size="lg" type="a" href="https://www.facebook.com/TheInvader360" icon="svguse:icons.svg#svg-icon-facebook"/>
+          <q-btn padding="xs" target="_blank" round flat size="lg" type="a" href="https://twitter.com/theinvader360" icon="svguse:icons.svg#svg-icon-twitter"/>
+          <q-btn padding="xs" target="_blank" round flat size="lg" type="a" href="https://github.com/theinvader360" icon="svguse:icons.svg#svg-icon-github"/>
+          <q-btn padding="xs" target="_blank" round flat size="lg" type="a" href="mailto:theinvader360@gmail.com" icon="svguse:icons.svg#svg-icon-email"/>
+        </div>
+        &copy;{{ year }} TheInvader360
+        <br />
+        <small>
+          <router-link :to="{ name: 'privacy' }" class="text-grey" style="text-decoration: none;">
+            Privacy
+          </router-link>
           <br />
-          <small>
-            <router-link :to="{ name: 'privacy' }" class="text-grey" style="text-decoration: none;">
-              Privacy
-            </router-link>
-            <br />
-            <span class="text-grey">
-              {{ version }}
-            </span>
-          </small>
+          <span class="text-grey">
+            {{ version }}
+          </span>
+        </small>
       </div>
     </div>
   </q-footer>

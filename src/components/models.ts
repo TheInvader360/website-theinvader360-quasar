@@ -1,8 +1,11 @@
-export interface Todo {
+export interface AppProject {
   id: number;
-  content: string;
+  name: string;
+  image: string;
+  description: string;
+  urlPlay: string;
+  urlAmazon: string;
+  urlApk: string;
 }
 
-export interface Meta {
-  totalCount: number;
-}
+export type AppProjectOrderBy = 'id' | 'name'

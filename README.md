@@ -1,5 +1,11 @@
 # Website TheInvader360 Quasar (website-theinvader360-quasar)
 
+## Start the server
+
+```bash
+go run main.go
+```
+
 ## Install the dependencies
 
 ```bash

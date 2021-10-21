@@ -31,6 +31,7 @@ module.exports = configure(function (ctx) {
     boot: [
       'i18n',
       'axios',
+      'notify-defaults',
     ],
 
     // https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-css
@@ -106,7 +107,7 @@ module.exports = configure(function (ctx) {
       // directives: [],
 
       // Quasar plugins
-      plugins: []
+      plugins: [ 'Loading', 'Notify' ]
     },
 
     // animations: 'all', // --- includes all animations

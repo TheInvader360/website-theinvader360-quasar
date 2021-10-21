@@ -1,6 +1,6 @@
 <template>
   <q-page class="q-pa-md">
-    <div class="row">
+    <div class="row justify-center">
         <q-btn flat no-caps color="primary" @click="setOrderBy('id')" label="Order by ID" />
         <q-btn flat no-caps color="primary" @click="setOrderBy('name')" label="Order by Name" />
     </div>

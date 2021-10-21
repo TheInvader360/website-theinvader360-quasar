@@ -27,7 +27,7 @@ type data struct {
 type appProject struct {
 	ID          int    `json:"id"`
 	Name        string `json:"name"`
-	Image       string `json:"image"`
+	ImagePath   string `json:"imagePath"`
 	Description string `json:"description"`
 	URLPlay     string `json:"urlPlay"`
 	URLAmazon   string `json:"urlAmazon"`

@@ -1,7 +1,7 @@
 export interface AppProject {
   id: number;
   name: string;
-  image: string;
+  imagePath: string;
   description: string;
   urlPlay: string;
   urlAmazon: string;

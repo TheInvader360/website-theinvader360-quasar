@@ -1,12 +1,19 @@
 <template>
-  <div>
-    <p v-if="orderedAppProjects.length">Ordered by {{ orderBy }} {{ orderAsc ? 'ascending' : 'descending' }}</p>
-    <li v-for="appProject in orderedAppProjects" :key="appProject.id">
-      {{ appProject.name }}
-      <div>
-        <p>{{ appProject.description }}</p>
-      </div>
-    </li>
+  <div class="row fit">
+    <p class="fit text-center" v-if="orderedAppProjects.length">Ordered by {{ orderBy }} {{ orderAsc ? 'ascending' : 'descending' }}</p>
+  </div>
+  <div class="row fit">
+    <div v-for="appProject in orderedAppProjects" :key="appProject.id" class="q-pa-md col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 flex">
+      <q-card flat bordered class="fit">
+        <q-card-section horizontal class="fit">
+          <q-card-section>
+            <div class="text-h6 q-mt-sm q-mb-xs">{{ appProject.name }}</div>
+            <div class="text-caption text-grey float-right fit">{{ appProject.description }}</div>
+          </q-card-section>
+          <q-img class="col-4 q-my-md q-mr-sm" ratio="1" fit="contain" position="0% 50%" :src="appProject.imagePath" />
+        </q-card-section>
+      </q-card>
+    </div>
   </div>
 </template>
 

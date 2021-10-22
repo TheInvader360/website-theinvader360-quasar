@@ -4,7 +4,7 @@
       <q-toolbar>
         <q-toolbar-title>
           <router-link :to="{ name: 'home' }" class="text-white q-pl-md" style="text-decoration: none;">
-            TheInvader360
+            <img class="q-mt-sm q-pb-none" style="max-width: 270px;" src="images/logo.png">
           </router-link>
         </q-toolbar-title>
       </q-toolbar>
@@ -15,13 +15,13 @@
           <q-btn no-caps to="/blog" label="Blog" />
           <q-btn-dropdown no-caps auto-close stretch flat label="Projects">
             <q-list>
-              <q-item clickable to="/projects-apps">
+              <q-item clickable to="/apps">
                 <q-item-section>Apps</q-item-section>
               </q-item>
-              <q-item clickable to="/projects-fun">
+              <q-item clickable to="/fun">
                 <q-item-section>Fun</q-item-section>
               </q-item>
-              <q-item clickable to="/projects-work">
+              <q-item clickable to="/work">
                 <q-item-section>Work</q-item-section>
               </q-item>
             </q-list>
@@ -40,13 +40,13 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import Footer from '../components/Footer.vue';
+import { defineComponent } from 'vue'
+import Footer from '../components/Footer.vue'
 
 export default defineComponent({
   name: 'MainLayout',
   components: {
     Footer,
   },
-});
+})
 </script>

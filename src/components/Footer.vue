@@ -28,18 +28,18 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, computed } from 'vue';
+import { defineComponent, computed } from 'vue'
 
 export default defineComponent({
   name: 'Footer',
   setup() {
     const year = computed(() => {
-      return new Date().getFullYear();
-    });
+      return new Date().getFullYear()
+    })
     const version = computed(() => {
-      return process.env.VERSION;
-    });
-    return { year, version};
+      return process.env.VERSION
+    })
+    return { year, version}
   }
-});
+})
 </script>

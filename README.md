@@ -1,6 +1,23 @@
 # Website TheInvader360 Quasar (website-theinvader360-quasar)
 
-## Start the server
+APIs can be set to either 'local-json' or 'mock-server' mode. The option is set in the relevant API class constructor (e.g. /src/api/projects/index.ts).
+
+local-json:
+
+* retrieves data from local json files (e.g. /public/data.json)
+* does not require the server back end to be running
+
+mock-server:
+
+* retrieves data from the mock go server (which in turn pulls data from local json files)
+* does require the server back end to be running
+* useful for demonstrating communications with a back end and simulating delayed responses
+
+A real server backed by a traditional database could easily be added.
+
+## Start the mock back end server
+
+This step is required if any APIs are running in 'mock-server' mode.
 
 ```bash
 go run main.go

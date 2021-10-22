@@ -7,10 +7,18 @@
       <q-card flat bordered class="fit">
         <q-card-section horizontal class="fit">
           <q-card-section>
-            <div class="text-h6 q-mt-sm q-mb-xs">{{ appProject.name }}</div>
+            <div class="text-h6 q-mt-sm q-mb-xs">
+              <router-link :to="{name: 'appProject', params: {id: appProject.id}}" class="text-black" style="text-decoration: none;">
+                {{ appProject.name }}
+              </router-link>
+            </div>
             <div class="text-caption text-grey float-right fit">{{ appProject.description }}</div>
           </q-card-section>
-          <q-img class="col-4 q-my-md q-mr-sm" ratio="1" fit="contain" position="0% 50%" :src="appProject.imagePath" />
+          <div class="col-4 q-my-md q-mr-sm">
+            <router-link :to="{name: 'appProject', params: {id: appProject.id}}">
+              <q-img class="fit" ratio="1" fit="contain" position="0% 50%" :src="appProject.imagePath" />
+            </router-link>
+          </div>
         </q-card-section>
       </q-card>
     </div>

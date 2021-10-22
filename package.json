@@ -1,8 +1,8 @@
 {
   "name": "website-theinvader360-quasar",
   "version": "0.0.1",
-  "description": "A Quasar Framework app",
-  "productName": "Quasar App",
+  "description": "TheInvader360",
+  "productName": "TheInvader360",
   "author": "Darren <theinvader360@gmail.com>",
   "private": true,
   "scripts": {

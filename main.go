@@ -31,6 +31,7 @@ type appProject struct {
 	Description string `json:"description"`
 	URLPlay     string `json:"urlPlay"`
 	URLAmazon   string `json:"urlAmazon"`
+	URLGithub   string `json:"urlGithub"`
 	URLApk      string `json:"urlApk"`
 }
 
@@ -63,7 +64,7 @@ func main() {
 }
 
 func loadData() {
-	file, err := os.Open("data.json")
+	file, err := os.Open("public/data.json")
 	if err != nil {
 		log.Fatal(err.Error())
 	}

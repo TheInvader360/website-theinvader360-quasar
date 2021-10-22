@@ -5,13 +5,13 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent } from 'vue'
 
 export default defineComponent({
   name: 'Work',
   setup() {
     const name = 'Work'
-    return { name };
+    return { name }
   }
-});
+})
 </script>

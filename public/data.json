@@ -3,9 +3,11 @@
     {
       "id": 1,
       "name": "Racing Game",
+      "releaseDate" : "2012-08-12T12:00:00.000Z",
+      "defaultSortWeight" : 50,
       "imagePath": "images/apps/racing-game.png",
       "description": "Simple casual racing game. Tilt to steer, avoid going off road, finish in the best time possible!",
-      "urlPlay": "https://play.google.com/store/apps/details?id=com.mrdt.racegame",
+      "urlPlay": "",
       "urlAmazon": "",
       "urlGithub": "https://github.com/TheInvader360/race-game",
       "urlApk": "https://github.com/TheInvader360/apks/raw/master/RacingGame.apk"
@@ -13,9 +15,11 @@
     {
       "id": 2,
       "name": "3D Game Engine",
+      "releaseDate" : "2012-08-25T12:00:00.000Z",
+      "defaultSortWeight" : 30,
       "imagePath": "images/apps/3d-game-engine.png",
       "description": "A basic 3D game engine built using LibGdx. Source on github.",
-      "urlPlay": "https://play.google.com/store/apps/details?id=com.mrdt.arenaroamer",
+      "urlPlay": "",
       "urlAmazon": "",
       "urlGithub": "https://github.com/TheInvader360/arena-roamer",
       "urlApk": "https://github.com/TheInvader360/apks/raw/master/3DGameEngine.apk"
@@ -23,6 +27,8 @@
     {
       "id": 3,
       "name": "Zombie Survival",
+      "releaseDate" : "2012-10-27T12:00:00.000Z",
+      "defaultSortWeight" : 64,
       "imagePath": "images/apps/zombie-survival.png",
       "description": "Touch the screen to guide your character away from the chasing zombies!",
       "urlPlay": "",
@@ -33,6 +39,8 @@
     {
       "id": 4,
       "name": "Quack Attack",
+      "releaseDate" : "2013-03-10T12:00:00.000Z",
+      "defaultSortWeight" : 98,
       "imagePath": "images/apps/quack-attack.png",
       "description": "Quack Attack is a fun casual Duck Hunting game!",
       "urlPlay": "",
@@ -43,6 +51,8 @@
     {
       "id": 5,
       "name": "4 Games 1 Screen",
+      "releaseDate" : "2013-05-15T12:00:00.000Z",
+      "defaultSortWeight" : 92,
       "imagePath": "images/apps/4-games-1-screen.png",
       "description": "Play four different games, all at the same time... 4 Games 1 Screen is the ultimate brain training challenge!",
       "urlPlay": "https://play.google.com/store/apps/details?id=com.theinvader360.braintraining.fourgamesonescreen.free",
@@ -53,6 +63,8 @@
     {
       "id": 6,
       "name": "Street Race Swipe",
+      "releaseDate" : "2013-05-26T12:00:00.000Z",
+      "defaultSortWeight" : 66,
       "imagePath": "images/apps/street-race-swipe.png",
       "description": "Street Race Swipe is a fun simple casual racing game!",
       "urlPlay": "https://play.google.com/store/apps/details?id=com.theinvader360.racing.streetraceswipe.free",
@@ -63,6 +75,8 @@
     {
       "id": 7,
       "name": "Fruit Run Slot Machine",
+      "releaseDate" : "2013-06-22T12:00:00.000Z",
+      "defaultSortWeight" : 86,
       "imagePath": "images/apps/fruit-run-slot-machine.png",
       "description": "Like slot machines, fruit machines, and one armed bandits? Play this game!",
       "urlPlay": "https://play.google.com/store/apps/details?id=com.theinvader360.casino.fruitslotmachine.free",
@@ -73,6 +87,8 @@
     {
       "id": 8,
       "name": "Super Jump",
+      "releaseDate" : "2013-10-19T12:00:00.000Z",
+      "defaultSortWeight" : 90,
       "imagePath": "images/apps/super-jump.png",
       "description": "Super Jump is a super fun infinite platform jumping game!",
       "urlPlay": "",
@@ -83,6 +99,8 @@
     {
       "id": 9,
       "name": "Game Services Tutorial",
+      "releaseDate" : "2013-10-19T12:00:00.000Z",
+      "defaultSortWeight" : 40,
       "imagePath": "images/apps/game-services-tutorial.png",
       "description": "Companion app to the google play game services tutorial. Source on github, tutorial on blog.",
       "urlPlay": "https://play.google.com/store/apps/details?id=com.theinvader360.tutorial.libgdx.gameservices",
@@ -93,6 +111,8 @@
     {
       "id": 10,
       "name": "Little Fish",
+      "releaseDate" : "2014-02-09T12:00:00.000Z",
+      "defaultSortWeight" : 88,
       "imagePath": "images/apps/little-fish.png",
       "description": "Little Fish is a fun game for all ages - eat the smaller fish and avoid being eaten by the bigger fish!",
       "urlPlay": "",
@@ -103,6 +123,8 @@
     {
       "id": 11,
       "name": "Jewel Match",
+      "releaseDate" : "2014-12-26T12:00:00.000Z",
+      "defaultSortWeight" : 94,
       "imagePath": "images/apps/jewel-match.png",
       "description": "Jewel Match is a challenging and addictive jewel matching puzzle game!",
       "urlPlay": "https://play.google.com/store/apps/details?id=com.theinvader360.jewel.match.blitz.game.free.android",
@@ -113,6 +135,8 @@
     {
       "id": 12,
       "name": "Sensory",
+      "releaseDate" : "2014-12-27T12:00:00.000Z",
+      "defaultSortWeight" : 28,
       "imagePath": "images/apps/sensory.png",
       "description": "Multitouch cause and effect app (for people with special needs and young children). Source on github.",
       "urlPlay": "",
@@ -123,6 +147,8 @@
     {
       "id": 13,
       "name": "Sensory Live Wallpaper",
+      "releaseDate" : "2014-12-27T12:00:00.000Z",
+      "defaultSortWeight" : 26,
       "imagePath": "images/apps/sensory-wallpaper.png",
       "description": "Colourful starburst particle effects on your home screen. Source on github.",
       "urlPlay": "https://play.google.com/store/apps/details?id=com.theinvader360.sensory.live.wallpaper.free.android",
@@ -133,6 +159,8 @@
     {
       "id": 14,
       "name": "Count 1 to 10",
+      "releaseDate" : "2016-10-18T12:00:00.000Z",
+      "defaultSortWeight" : 80,
       "imagePath": "images/apps/count-1-to-10.png",
       "description": "Learn to count from 1 to 10 in English, French, German, Italian, Japanese, Chinese, Spanish, and Welsh",
       "urlPlay": "",
@@ -143,6 +171,8 @@
     {
       "id": 15,
       "name": "Tappy Run",
+      "releaseDate" : "2016-12-12T12:00:00.000Z",
+      "defaultSortWeight" : 70,
       "imagePath": "images/apps/tappy-run.png",
       "description": "Fun infinite running game with blocky voxel graphics and one tap controls!",
       "urlPlay": "https://play.google.com/store/apps/details?id=com.theinvader360.tap.run",
@@ -153,6 +183,8 @@
     {
       "id": 16,
       "name": "Hungry Caterpillar",
+      "releaseDate" : "2017-10-26T12:00:00.000Z",
+      "defaultSortWeight" : 96,
       "imagePath": "images/apps/hungry-caterpillar.png",
       "description": "Classic snake game updated - play on phone or tablet using one tap controls, or fire tv using a remote or game controller!",
       "urlPlay": "",
@@ -163,6 +195,8 @@
     {
       "id": 17,
       "name": "Maths Quiz",
+      "releaseDate" : "2020-05-17T12:00:00.000Z",
+      "defaultSortWeight" : 82,
       "imagePath": "images/apps/maths-quiz.png",
       "description": "A simple and fun maths quiz game with addition, subtraction, multiplication, and division problems.",
       "urlPlay": "https://play.google.com/store/apps/details?id=com.theinvader360.quiz.maths",

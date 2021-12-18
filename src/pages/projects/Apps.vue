@@ -1,8 +1,30 @@
 <template>
   <q-page class="q-pa-md">
     <div class="row justify-center">
-        <q-btn flat no-caps color="primary" @click="setOrderBy('id')" label="Order by ID" />
-        <q-btn flat no-caps color="primary" @click="setOrderBy('name')" label="Order by Name" />
+      <q-btn-dropdown flat no-caps color="primary" label="Sort Order">
+        <q-list>
+          <q-item clickable v-close-popup @click="setSortOrder('defaultSortWeight', false)">
+            <q-item-section>
+              <q-item-label>Favourites</q-item-label>
+            </q-item-section>
+          </q-item>
+          <q-item clickable v-close-popup @click="setSortOrder('name', true)">
+            <q-item-section>
+              <q-item-label>Name</q-item-label>
+            </q-item-section>
+          </q-item>
+          <q-item clickable v-close-popup @click="setSortOrder('releaseDate', false)">
+            <q-item-section>
+              <q-item-label>Release Date (Newest First)</q-item-label>
+            </q-item-section>
+          </q-item>
+          <q-item clickable v-close-popup @click="setSortOrder('releaseDate', true)">
+            <q-item-section>
+              <q-item-label>Release Date (Oldest First)</q-item-label>
+            </q-item-section>
+          </q-item>
+        </q-list>
+      </q-btn-dropdown>
     </div>
     <div class="row">
       <AppProjectList
@@ -28,14 +50,12 @@ export default defineComponent({
     const name = 'Apps'
     const $q = useQuasar()
     const appProjects = ref<AppProject[]>([])
-    const orderBy = ref<AppProjectOrderBy>('name')
-    const orderAsc = ref(true)
+    const orderBy = ref<AppProjectOrderBy>('defaultSortWeight')
+    const orderAsc = ref(false)
 
-    const setOrderBy = (attribute: AppProjectOrderBy) => {
-      if (orderBy.value == attribute) {
-        orderAsc.value = !orderAsc.value
-      }
+    const setSortOrder = (attribute: AppProjectOrderBy, ascending: boolean) => {
       orderBy.value = attribute
+      orderAsc.value = ascending
     }
 
     const getData = async () => {
@@ -55,7 +75,7 @@ export default defineComponent({
       void getData()
     })
 
-    return { name, appProjects, orderBy, orderAsc, setOrderBy }
+    return { name, appProjects, orderBy, orderAsc, setSortOrder }
   }
 })
 </script>

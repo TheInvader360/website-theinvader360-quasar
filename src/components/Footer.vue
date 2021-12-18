@@ -1,8 +1,8 @@
 <template>
-  <q-footer bordered class="bg-grey-8 text-white">
+  <q-footer bordered class="bg-grey-10 text-white">
     <div class="row q-pt-md q-pa-xs">
       <div class="col text-center">
-        <div class="q-mb-sm">
+        <div class="q-mb-sm text-grey-4">
           <q-btn padding="xs" target="_blank" round flat size="lg" type="a" href="https://play.google.com/store/apps/developer?id=TheInvader360" icon="svguse:icons.svg#svg-icon-googleplay"/>
           <q-btn padding="xs" target="_blank" round flat size="lg" type="a" href="https://www.amazon.co.uk/s?field-brandtextbin=TheInvader360" icon="svguse:icons.svg#svg-icon-amazon"/>
           <q-btn padding="xs" target="_blank" round flat size="lg" type="a" href="https://youtube.com/theinvader360" icon="svguse:icons.svg#svg-icon-youtube"/>
@@ -11,14 +11,15 @@
           <q-btn padding="xs" target="_blank" round flat size="lg" type="a" href="https://github.com/theinvader360" icon="svguse:icons.svg#svg-icon-github"/>
           <q-btn padding="xs" target="_blank" round flat size="lg" type="a" href="mailto:theinvader360@gmail.com" icon="svguse:icons.svg#svg-icon-email"/>
         </div>
-        &copy;{{ year }} TheInvader360
-        <br />
+        <div class="q-mb-xs text-grey-4">
+          &copy;{{ year }} TheInvader360
+        </div>
         <small>
-          <router-link :to="{ name: 'privacy' }" class="text-grey" style="text-decoration: none;">
+          <router-link :to="{ name: 'privacy' }" class="text-grey-8" style="text-decoration: none;">
             Privacy
           </router-link>
           <br />
-          <span class="text-grey">
+          <span class="text-grey-8">
             {{ version }}
           </span>
         </small>

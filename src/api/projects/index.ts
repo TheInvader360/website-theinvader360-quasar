@@ -11,7 +11,7 @@ class ProjectsAPI {
   mode: ApiMode
  
   constructor() {
-    this.mode = 'mock-server' // options: 'local-json' or 'mock-server'
+    this.mode = 'local-json' // options: 'local-json' or 'mock-server'
   }
 
   async readAppProjects(): Promise<AppProject[]> {

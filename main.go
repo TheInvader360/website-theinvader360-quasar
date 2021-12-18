@@ -25,14 +25,16 @@ type data struct {
 }
 
 type appProject struct {
-	ID          int    `json:"id"`
-	Name        string `json:"name"`
-	ImagePath   string `json:"imagePath"`
-	Description string `json:"description"`
-	URLPlay     string `json:"urlPlay"`
-	URLAmazon   string `json:"urlAmazon"`
-	URLGithub   string `json:"urlGithub"`
-	URLApk      string `json:"urlApk"`
+	ID                int    `json:"id"`
+	Name              string `json:"name"`
+	ReleaseDate       string `json:"releaseDate"`
+	DefaultSortWeight int    `json:"defaultSortWeight"`
+	ImagePath         string `json:"imagePath"`
+	Description       string `json:"description"`
+	URLPlay           string `json:"urlPlay"`
+	URLAmazon         string `json:"urlAmazon"`
+	URLGithub         string `json:"urlGithub"`
+	URLApk            string `json:"urlApk"`
 }
 
 type funProject struct {

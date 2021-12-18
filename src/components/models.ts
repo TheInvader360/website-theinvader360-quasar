@@ -1,6 +1,8 @@
 export interface AppProject {
   id: number
   name: string
+  releaseDate: string
+  defaultSortWeight: number
   imagePath: string
   description: string
   urlPlay: string
@@ -9,4 +11,4 @@ export interface AppProject {
   urlApk: string
 }
 
-export type AppProjectOrderBy = 'id' | 'name'
+export type AppProjectOrderBy = 'name' | 'releaseDate' | 'defaultSortWeight'

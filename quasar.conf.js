@@ -57,8 +57,7 @@ module.exports = configure(function (ctx) {
     build: {
       vueRouterMode: 'history', // available values: 'hash', 'history'
       env: {
-        VERSION : ctx.dev ? `dev-${new Date().toISOString().substr(0,16)}` : `${String(process.env.GIT_HASH)}-${new Date().toISOString().substr(0,16)}`,        
-        RELEASE : ctx.dev ? 'dev' : `${String(process.env.GIT_HASH)}`     
+        VERSION: ctx.dev ? `dev-${new Date().toISOString().substring(0,16)}` : `${String(require('child_process').execSync('git rev-parse --short HEAD').toString().trim())}-${new Date().toISOString().substring(0,16)}`,
       },
 
       // transpile: false,

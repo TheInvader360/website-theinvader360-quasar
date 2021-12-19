@@ -47,6 +47,12 @@ yarn run lint
 quasar build
 ```
 
+### Build and deploy to github pages
+
+```bash
+./build-and-deploy.sh
+```
+
 ### Customize the configuration
 
 See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).

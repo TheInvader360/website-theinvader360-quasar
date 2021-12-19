@@ -209,17 +209,20 @@
     {
       "id": 1,
       "name": "Fun 1",
-      "description": "Fun 1 Description..."
+      "description": "Fun 1 Description...",
+      "markdownPath": "md/projects/fun/fp1.md"
     },
     {
       "id": 2,
       "name": "Fun 2",
-      "description": "Fun 2 Description..."
+      "description": "Fun 2 Description...",
+      "markdownPath": "md/projects/fun/fp2.md"
     },
     {
       "id": 3,
       "name": "Fun 3",
-      "description": "Fun 3 Description..."
+      "description": "Fun 3 Description...",
+      "markdownPath": "md/projects/fun/fp3.md"
     }
   ],
   "workProjects": [

@@ -12,8 +12,6 @@
         <q-space/>
         <q-btn-group flat>
           <q-btn no-caps to="/about" label="About" />
-
-          <!--
           <q-btn no-caps to="/blog" label="Blog" />
           <q-btn-dropdown no-caps auto-close stretch flat label="Projects">
             <q-list>
@@ -28,9 +26,6 @@
               </q-item>
             </q-list>
           </q-btn-dropdown>
-          -->
-          <q-btn no-caps to="/apps" label="Apps" />
-
         </q-btn-group>
       </q-toolbar>
     </q-header>

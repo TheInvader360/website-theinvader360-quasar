@@ -12,3 +12,10 @@ export interface AppProject {
 }
 
 export type AppProjectOrderBy = 'name' | 'releaseDate' | 'defaultSortWeight'
+
+export interface FunProject {
+  id: number
+  name: string
+  description: string
+  markdownPath: string
+}
